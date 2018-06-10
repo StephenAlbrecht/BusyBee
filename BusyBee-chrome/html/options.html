@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BusyBee Settings</title>
+        <link rel="stylesheet" href="/css/options.css">
+        <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
+        <script type="text/javascript" src="/js/busybee.js"></script>
+        <script type="text/javascript" src="/js/utils.js"></script>
+    </head>
+    <body>        
+        <header>
+            <div class="container">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td style="padding-right: 8px; vertical-align:middle">
+                                <img src="/images/honeybee48.png" alt="">
+                            </td>
+                            <td>
+                                <h1>BusyBee Settings</h1>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </header>
+        <div class="section-header">
+            <div class="container">
+                <h2>Operating Mode</h2>
+            </div>
+        </div>
+        <div class="container">
+            <ul id="mode_select">
+                <li>
+                    <input type="radio" id="Popup_Mode" name="mode" checked="">
+                    <label for="Popup_Mode" class="mode">Popup Mode</label>
+                    <ul>
+                        <li>
+                            Allows site access after viewing a popup. Designed to snap you out of mindless browsing by forcing participation. If you proceed to browse a blocked site, the form will reappear after a number of minutes set below to remind you to get back to work.
+                        </li>
+                        <li>
+                            <div id="reset-time-div">Reset Timer: 
+                                <input id="resetTime" type="number" value="" min="1">
+                                <label for="resetTime">Minutes</label>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <input type="radio" id="Block_Mode" name="mode" checked="">
+                    <label for="Block_Mode" class="mode">Block Mode</label>
+                    <ul>
+                        <li>
+                            Blocks site access completely to prevent distractions.
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="section-header">
+            <div class="container">
+                <h2>Blocked Domains</h2>
+            </div>
+        </div>
+        <div class="container">
+            <div id="blocklisted-domains">
+                <p>BusyBee is blocking the domains listed below. You can add or remove a domain via the BusyBee icon 
+                    in the browser toolbar, or by typing the domain in the box below and clicking the "Add domain" button.</p>
+                <p class="tips"><label class="tips">Tips: </label>
+                    If you want to block every part of a domain, omit "www". For example, adding 
+                    "google.com" will block both "www.google.com/maps" and "www.docs.google.com", but adding
+                    "www.google.com" will only block "www.google.com/maps". Adding "google" will block any URL with
+                    google in it. 
+                </p>
+                <table id="blocklistTable">
+                    <tbody>
+                        <tr>
+                            <td class="field">
+                                <input type="text" id="newBlocklistDomain" placeholder="e.g. www.domain.com, *.domain.net, domain.org">
+                            </td>
+                            <td>
+                                <button class="optionsBtn" id="addDomain">Add domain</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="field">
+                                <select id="blocklistDomainBox" size="10" multiple>
+                                </select>
+                            </td>
+                            <td>
+                                <button class="optionsBtn" id="rmvDomain">Remove selected</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+    <script src="/js/options.js"></script>
+</html>

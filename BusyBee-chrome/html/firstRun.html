@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Thank you for installing BusyBee!</title>
+        <meta name="description" content="false">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/firstRun.css">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans:300,600|Vollkorn:700" rel="stylesheet">
+        <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/js/busybee.js"></script>
+        <script type="text/javascript" src="/js/utils.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="/images/bb-logo.svg">
+            <div class="title">
+                <h1>BusyBee</h1>
+            </div>
+        </header>
+        <div class="intro">
+            <h2>Thank you for installing BusyBee!</h2>
+            <p>BusyBee helps you focus by snapping you out of mindless 
+            browsing when you get distracted. Read below to see how.</p>
+        </div>
+        <div class="features">
+            <div class="f-popup">
+                <div class="cell hide-small">
+                    <h2>Popup Mode</h2>
+                    <p>
+                    BusyBee's default mode is popup mode. When you visit a site on your blocklist, 
+                    BusyBee will notify you with a dialog box. If you want to proceed to the site, 
+                    you can click the Browse button and BusyBee will remind you again in five 
+                    minutes. You can customize how long it takes BusyBee to remind you in the 
+                    <a class="settings" href="/html/options.html" target="_blank">settings page</a>.
+                    </p>
+                </div>
+                <div class="cell">
+                    <img src="/images/dialog.PNG" alt="">
+                </div>
+                <div class="cell hide-large">
+                    <h2>Popup Mode</h2>
+                    <p>
+                    BusyBee's default mode is popup mode. When you visit a site on your blocklist, 
+                    BusyBee will notify you with a dialog box. If you want to proceed to the site, 
+                    you can click the Browse button and BusyBee will remind you again in five 
+                    minutes. You can customize how long it takes BusyBee to remind you in the 
+                    <a class="settings" href="/html/options.html" target="_blank">settings page</a>.
+                    </p>
+                </div>
+            </div>
+            <div class="f-block">
+                <div class="cell">
+                    <img src="/images/blockpage-monitor.PNG" alt="">
+                </div>
+                <div class="cell">
+                <h2>Block Mode</h2>
+                    <p>
+                    You can also switch to block mode if you want to avoid your blocked sites
+                    completely. In block mode, trying to access a blocked site will redirect you
+                    to a blockpage. The only way to access your blocked sites in block mode is to 
+                    turn off BusyBee or to remove that website from your blocklist. 
+                    </p>
+                </div>
+            </div>
+            <div class="f-break">
+                <div class="cell hide-small">
+                    <h2>Take Breaks</h2>
+                    <p>
+                    If you finish some of your work and want to take a short break, you can 
+                    disable BusyBee for five minutes via the bee icon in your browser. You can 
+                    customize the reset time in the  
+                    <a class="settings" href="/html/options.html" target="_blank">settings page</a>.
+                    </p>
+                </div>
+                <div class="cell" style="text-align: center;">
+                    <img src="/images/popup.PNG" alt="">
+                </div>
+                <div class="cell hide-large">
+                    <h2>Take Breaks</h2>
+                    <p>
+                    If you finish some of your work and want to take a short break, you can 
+                    disable BusyBee for five minutes via the bee icon in your browser. You can 
+                    customize the reset time in the  
+                    <a class="settings" href="/html/options.html" target="_blank">settings page</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="options">
+            <div class="cell" id="domain-list">
+                <p>
+                You can start setting up BusyBee by blocking some of the most 
+                distracting websites. Your settings are saved automatically.
+                </p>
+                <table id="optionsTable">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <input type="checkbox" name="facebook" id="facebook">
+                                        <label for="facebook">Facebook</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="youtube" id="youtube">
+                                        <label for="youtube">YouTube</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="instagram" id="instagram">
+                                        <label for="instagram">Instagram</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="twitter" id="twitter">
+                                        <label for="twitter">Twitter</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="reddit" id="reddit">
+                                        <label for="reddit">Reddit</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="pinterest" id="pinterest">
+                                        <label for="pinterest">Pinterest</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="askfm" id="askfm">
+                                        <label for="askfm">Ask.fm</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="tumblr" id="tumblr">
+                                        <label for="tumblr">Tumblr</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="linkedin" id="linkedin">
+                                        <label for="linkedin">Linked.in</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="stumbleupon" id="stumbleupon">
+                                        <label for="stumbleupon">Stumbleupon</label>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul class="feedback">
+                                    <li id="f-facebook"><br> </li>
+                                    <li id="f-youtube"><br></li>
+                                    <li id="f-instagram"><br> </li>
+                                    <li id="f-twitter"><br> </li>
+                                    <li id="f-reddit"><br> </li>
+                                    <li id="f-pinterest"><br> </li>
+                                    <li id="f-askfm"><br> </li>
+                                    <li id="f-tumblr"><br> </li>
+                                    <li id="f-linkedin"><br> </li>
+                                    <li id="f-stumbleupon"><br> </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p id="last">
+                    Or, add your own websites on the 
+                    <a class="settings" href="/html/options.html" target="_blank">settings page</a>.
+                </p>
+            </div>
+        </div>
+        <footer>
+            <div class="thanks">
+                <h3>We hope BusyBee helps to improve your productivity!</h3>
+            </div>
+        </footer>
+        <script type="text/javascript" src="/js/firstRun.js"></script>
+    </body>
+</html>

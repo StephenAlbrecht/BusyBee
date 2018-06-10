@@ -1,0 +1,129 @@
+body {
+    text-align: left;
+    margin: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background-color: #ffe64d;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.section-header {
+    background-color: #f7f7f7;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1.6rem;
+}
+
+li, p, #reset-time-div, #reset-time-div label {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.tips {
+    font-size: .8rem;
+    margin-bottom: 1rem;
+}
+
+.tips label {
+    font-weight: bold;
+}
+
+.mode {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+}
+
+td {
+    vertical-align: top;
+}
+
+input[type= "number"] {
+    width: 3em;
+}
+
+.optionsBtn {
+    border-radius: 3px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    border: 1px solid #5e5e5e;
+    width: 150px;
+    color: #4b4b4b;
+    background-color: #ffee57;
+}
+
+.optionsBtn:hover {
+    color: #000;
+    border: 1px solid #000;
+    background-color: #ffd152;
+}
+
+#mode_select {
+    padding-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#reset-time-div {
+    margin: 10px;
+}
+
+#newBlocklistDomain {
+    width: 99.4%;
+}
+
+#blocklistDomainBox {
+    width: 100%; 
+    background: white;
+}
+
+#blocklistTable {
+    width: 700px;
+}
+
+.field {
+    width: 70%;
+}
+
+@media (max-width: 920px) {
+    .optionsBtn {
+        width: 125px;
+    }
+    #blocklistDomainBox, #blocklistTable {
+        width: 100%;
+    }
+    .field {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}

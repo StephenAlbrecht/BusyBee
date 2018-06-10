@@ -1,0 +1,118 @@
+body {
+    text-align: center;
+    margin: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+header {
+    background-color: #ffe64d;
+    width: 100%;
+    font-size: 1.7rem;
+    padding: 0;
+}
+
+header img {
+    width: 9rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#hostname {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: #d06401;
+}
+
+.container {
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+button {
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 4px;
+    border: 1px solid #5e5e5e;
+    width: 200px;
+    color: #4b4b4b;
+    background-color: #ffee57;
+}
+
+button:hover {
+    color: #000;
+    border: 1px solid #000;
+    background-color: #ffd152;
+}
+
+#close_tab_btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 13px; 
+    padding-bottom: 13px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 840px) {
+    header {
+        font-size: 1.2rem;
+    }
+    header img {
+        width: 7rem;
+    }
+    .wrapper {
+        padding-top:    0.8rem;
+        padding-bottom: 0.8rem;
+    }
+    h2 {
+        font-size: 1.35rem;
+    }
+
+    .container {
+        width: 420px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1rem;
+    }
+    header img {
+        width: 5rem;
+    }
+    .wrapper {
+        padding-top:    0.6rem;
+        padding-bottom: 0.6rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .container {
+        width: 90%;
+    }
+}

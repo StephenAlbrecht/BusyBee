@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/popup.css">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+        <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/js/busybee.js"></script>
+        <script type="text/javascript" src="/js/utils.js"></script>
+    </head>
+    <body>
+        <div id='busyBeeHeader'>
+            <a href="/html/firstRun.html" target="_blank">?</a>
+            <div class="toggle-group">
+                <input type="checkbox" name="on-off-switch" id="on-off-switch" checked="" tabindex="1">
+                <label for="on-off-switch" id="on-off-label">
+                    <span class="aural">Enable Button</span>
+                </label>
+                <div class="onoffswitch pull-right" aria-hidden="true">
+                    <div class="onoffswitch-label">
+                        <div class="onoffswitch-inner"></div>
+                        <div class="onoffswitch-switch"></div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div id='title'>
+                <img src="/images/honeybee48.png" alt="">
+                <h2>BusyBee</h2>
+            </div>
+            <div class='clear'></div>
+            <div id='subtitle'>
+                version <span id="version"></span>
+            </div>
+        </div>
+        <div id="siteControls">
+            <button id="add_site_btn" class="tbtn">Add this site to blocklist</button>
+            <button id="remove_site_btn" class="tbtn" style="display: none">Remove this site from blocklist</button>
+            <button id="temp_disable_btn" class="perm_btn">Turn off for <span id="resetTime">5 minutes</span></button>
+            <button id="settings_btn" class="perm_btn">Settings</button>
+            <p id="feedback"></p>
+        </div>
+        <script type="text/javascript" src="/js/popup.js"></script>
+    </body>
+</html>
