@@ -7,8 +7,7 @@ let checklist = [
     {id: "#pinterest",      fId: "#f-pinterest",    defaultUrl: "pinterest.com",   altUrl: ""},
     {id: "#askfm",          fId: "#f-askfm",        defaultUrl: "ask.fm",          altUrl: ""},
     {id: "#tumblr",         fId: "#f-tumblr",       defaultUrl: "tumblr.com",      altUrl: ""},
-    {id: "#linkedin",       fId: "#f-linkedin",     defaultUrl: "linkedin.com",    altUrl: ""},
-    {id: "#stumbleupon",    fId: "#f-stumbleupon",  defaultUrl: "stumbleupon.com", altUrl: ""},
+    {id: "#linkedin",       fId: "#f-linkedin",     defaultUrl: "linkedin.com",    altUrl: ""}
 ];
 
 $(document).ready(function() {
