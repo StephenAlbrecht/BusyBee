@@ -13,9 +13,16 @@
   width: 15rem;
 }
 
-h1 {
+@media screen and (min-width: 64em) {
+  .page-header {
+      padding: 3rem 6rem
+  }
+}
+
+.project-name {
  font-family: 'Oleo Script', cursive;
  font-size: 3.5rem;
+ margin-bottom: 1rem;
 }
 
 .btn {
