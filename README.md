@@ -1,37 +1,21 @@
-## Welcome to Pages
+## What is BusyBee?
 
-You can use the [editor on GitHub](https://github.com/StephenAlbrecht/BusyBee/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+BusyBee is a browser extension that impedes access to social media and other distracting sites when you need to focus on getting work done.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Popup Mode
 
-### Markdown
+![Image](/assets/img/dialog.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+BusyBee's default mode is popup mode. When you visit a site on your blocklist, BusyBee will notify you with a dialog box. If you want to proceed to the site, you can click the Browse button and BusyBee will remind you again in five minutes. You can customize how long it takes BusyBee to remind you in the settings page.
 
-```markdown
-Syntax highlighted code block
+### Block Mode
 
-# Header 1
-## Header 2
-### Header 3
+![Image](/assets/img/blockpage-monitor.png)
 
-- Bulleted
-- List
+You can also switch to block mode if you want to avoid your blocked sites completely. In block mode, trying to access a blocked site will redirect you to a blockpage. The only way to access your blocked sites in block mode is to turn off BusyBee or to remove that website from your blocklist. 
 
-1. Numbered
-2. List
+### Take breaks
 
-**Bold** and _Italic_ and `Code` text
+![Image](/assets/img/popup.png)
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/StephenAlbrecht/BusyBee/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you finish some of your work and want to take a short break, you can disable BusyBee for five minutes via the bee icon in your browser. You can customize the reset time in the settings page.
