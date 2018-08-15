@@ -9,6 +9,10 @@
   background-image: none;
 }
 
+.page-header img {
+  width: 15rem;
+}
+
 h1 {
  font-family: 'Oleo Script', cursive;
 }
@@ -28,4 +32,8 @@ h1 {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   font-family: 'Vollkorn', serif;
   color: #d06401;
+}
+
+.main-content img {
+  width: 25rem;
 }
