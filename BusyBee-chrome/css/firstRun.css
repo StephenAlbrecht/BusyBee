@@ -84,12 +84,13 @@ p, ul {
     margin-right: auto;
 }
 
-.features, .options {
+.options {
     padding: 4rem;
 }
 
 .features {
     background-color: #f7f7f7;
+    padding: 2rem;
 }
 
 .features h2 {
