@@ -2,6 +2,8 @@
 
 BusyBee is a browser extension that impedes access to social media and other distracting sites when you need to focus on getting work done.
 
+BusyBee is different from other site blockers by offering two different ways to block websites, detailed below. 
+
 ### Popup Mode
 
 ![Image](/assets/img/dialog.PNG)
@@ -18,4 +20,4 @@ You can also switch to block mode if you want to avoid your blocked sites comple
 
 ![Image](/assets/img/popup.PNG)
 
-If you finish some of your work and want to take a short break, you can disable BusyBee for five minutes via the bee icon in your browser. You can customize the reset time in the settings page.
+If you finish some of your work and want to take a short break, you can disable BusyBee for five minutes via the bee icon in your browser. The icon will change to let you know that the clock is ticking. You can customize the reset time in the settings page.
