@@ -10,7 +10,7 @@
 }
 
 .page-header img {
-  width: 15rem;
+  width: 20rem;
 }
 
 @media screen and (min-width: 64em) {
@@ -44,6 +44,17 @@
     color: rgba(0,0,0,0.8);
     background-color: rgba(0,0,0,0.2);
     border-color: rgba(0,0,0,0.3)
+}
+
+.feature-img {
+  text-align: center;
+  margin: auto;
+}
+
+.main-content p {
+  font-family: 'Open-Sans', sans-serif;
+  font-weight:300;
+  color: #000;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
