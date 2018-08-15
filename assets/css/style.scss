@@ -13,10 +13,6 @@ h1 {
  font-family: 'Oleo Script', cursive;
 }
 
-h2 {
-  font-family: 'Vollkorn', serif;
-}
-
 .btn {
   color: rgba(0,0,0,0.7);
   background-color: rgba(0,0,0,0.08);
@@ -30,5 +26,6 @@ h2 {
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+  font-family: 'Vollkorn', serif;
   color: #d06401;
 }
