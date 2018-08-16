@@ -41,11 +41,6 @@ body {
       display: block;
       width: 80%;  
   }
-
-  .hide-small {
-      display: none;
-  }
-
   .cell img {
       margin-left: auto;
       margin-right: auto;
@@ -69,16 +64,34 @@ body {
       margin-top: 1.5rem;
       text-align: center;
   }
+  .cell, .intro h2, .intro p {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
+  .options {
+      padding-left: 1.9375rem;
+      padding-right: 1.9375rem;
+  }
+
+  .intro, .features {
+      padding-left: 1rem;
+      padding-right: 1rem;
+  }
+
+  .hide-small {
+      display: none;
+  }
 }
 
-a {
+footer a {
   color: #d06401;
   font-weight: bold;
   text-decoration: none;
   cursor: pointer;
 }
 
-a:hover {
+footer a:hover {
   color: #4d2422;
 }
 
@@ -193,4 +206,10 @@ p, ul {
 h2 {
   font-family: 'Vollkorn', serif;
   font-size: 1.8rem;
+}
+
+.site-footer {
+  padding: 2rem 0;
+  margin-top: 2rem;
+  border-top: solid 1px #eff0f1;
 }
