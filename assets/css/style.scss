@@ -52,10 +52,6 @@ footer a:hover {
   width: 30rem;
 }
 
-.main-content p {
-  font-weight:300;
-}
-
 .f-popup, .f-block, .f-break {
   display: flex;
   flex-flow: row wrap;
@@ -85,6 +81,7 @@ h1, h2, h3, p {
 p, ul {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+  font-weight: 300;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -142,7 +139,7 @@ h2 {
 
 .site-footer {
   text-align: center;
-  margin-top: none;
+  margin-top: 0;
   padding: 2rem 0;
   border-top: none;
 }
@@ -153,7 +150,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 42em) {
+@media screen and (max-width: 50em) {
   .page-header img {
     width: 10rem;
   }
@@ -169,7 +166,7 @@ h2 {
     min-width: 0;
   }
   .cell img {
-    width: 100%;
+    max-width: 565px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -178,13 +175,8 @@ h2 {
     margin-right: auto;
     margin-left: auto;
   }
-  .f-popup h2 {
+  .f-popup h2, .f-block h2 {
     margin-top: .5rem;
-    text-align: center;
-  }
-
-  .f-block h2 {
-    margin-top: 2rem;
     text-align: center;
   }
 
