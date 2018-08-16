@@ -30,16 +30,8 @@ body {
   .project-name {
     font-size: 2.5rem;
   }
-
-  .intro {
-    padding: 2rem;
-  }
   .intro h2 {
     font-size: 1.5rem;
-  }
-  .cell, .intro p {
-    display: block;
-    width: 80%;  
   }
   .cell img {
     width: 100%;
@@ -65,7 +57,7 @@ body {
     margin-top: 1.5rem;
     text-align: center;
   }
-  .cell, .intro h2, .intro p {
+  .cell, .hide-large, .intro h2, .intro p {
     display: block;
     width: 100%;
     min-width: 0;
@@ -82,9 +74,6 @@ body {
 
   .hide-small {
     display: none;
-  }
-  .hide-large {
-    display: block;
   }
 }
 
