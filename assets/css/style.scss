@@ -3,8 +3,11 @@
 
 @import "{{ site.theme }}";
 
-.page-header {
+body {
   color: #000;
+}
+
+.page-header {
   background-color: #ffe64d;
   background-image: none;
 }
@@ -54,7 +57,6 @@
 
 .main-content p {
   font-weight:300;
-  color: #000;
 }
 
 .f-popup, .f-block, .f-break {
@@ -104,6 +106,7 @@ p, ul {
 
 .intro h2 {
   margin-top: 0;
+  text-align: center;
 }
 
 .intro p {  
@@ -139,5 +142,4 @@ p, ul {
 h2 {
   font-family: 'Vollkorn', serif;
   font-size: 1.8rem;
-  color: #000;
 }
