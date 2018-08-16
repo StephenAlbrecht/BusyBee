@@ -57,13 +57,6 @@
   color: #000;
 }
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-  font-family: 'Vollkorn', serif;
-  color: #d06401;
-}
-
-
-
 .f-popup, .f-block, .f-break {
   display: flex;
   flex-flow: row wrap;
@@ -133,4 +126,18 @@ p, ul {
 .features h2 {
   margin-top: 0;
   margin-bottom: .5rem;
+}
+
+#last {
+  margin-bottom: 0;
+}
+
+.hide-large {
+  display: none;
+}
+
+h2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.8rem;
+  color: #000;
 }
