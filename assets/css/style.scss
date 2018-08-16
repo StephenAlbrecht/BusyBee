@@ -33,6 +33,11 @@ body {
   .intro h2 {
     font-size: 1.5rem;
   }
+  .cell, .hide-large, .intro h2, .intro p {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
   .cell img {
     width: 100%;
     margin-left: auto;
@@ -57,11 +62,7 @@ body {
     margin-top: 1.5rem;
     text-align: center;
   }
-  .cell, .hide-large, .intro h2, .intro p {
-    display: block;
-    width: 100%;
-    min-width: 0;
-  }
+
   .options {
     padding-left: 1.9375rem;
     padding-right: 1.9375rem;
@@ -134,7 +135,6 @@ footer a:hover {
 img {
   max-width: 100%;
   vertical-align: middle;
-  max-width: 100%;
   height: auto; 
   width: auto; 
 }
@@ -202,7 +202,7 @@ h2 {
 }
 
 .site-footer {
+  text-align: center;
   padding: 2rem 0;
-  margin-top: 2rem;
-  border-top: solid 1px #eff0f1;
+  border-top: none;
 }
