@@ -110,7 +110,7 @@ p, ul {
   margin-right: auto;
 }
 
-.last-intro-p {
+.intro .last {
   margin-bottom: 0;
 }
 
@@ -126,10 +126,6 @@ p, ul {
 .features h2 {
   margin-top: 0;
   margin-bottom: .5rem;
-}
-
-#last {
-  margin-bottom: 0;
 }
 
 .hide-large {
@@ -171,7 +167,6 @@ h2 {
   }
   .cell img {
     text-align: center;
-    max-width: 565px;
     margin-left: auto;
     margin-right: auto;
   }
