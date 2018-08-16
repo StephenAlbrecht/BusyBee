@@ -17,67 +17,6 @@ body {
   width: 14rem;
 }
 
-@media screen and (min-width: 64em) {
-  .page-header {
-      padding: 3rem 6rem
-  }
-}
-
-@media screen and (max-width: 42em) {
-  .page-header img {
-    width: 10rem;
-  }
-  .project-name {
-    font-size: 2.5rem;
-  }
-  .intro h2 {
-    font-size: 1.5rem;
-  }
-  .cell, .hide-large, .intro h2, .intro p {
-    display: block;
-    width: 100%;
-    min-width: 0;
-  }
-  .cell img {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .intro, .features, .options {
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .f-popup h2 {
-    margin-top: .5rem;
-    text-align: center;
-  }
-
-  .f-block h2 {
-    margin-top: 2rem;
-    text-align: center;
-  }
-
-  .f-break h2 {
-    margin-top: 1.5rem;
-    text-align: center;
-  }
-
-  .options {
-    padding-left: 1.9375rem;
-    padding-right: 1.9375rem;
-  }
-
-  .intro, .features {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .hide-small {
-    display: none;
-  }
-}
-
 footer a {
   color: #d06401;
   font-weight: bold;
@@ -203,6 +142,68 @@ h2 {
 
 .site-footer {
   text-align: center;
+  margin-top: none;
   padding: 2rem 0;
   border-top: none;
+}
+
+@media screen and (min-width: 64em) {
+  .page-header {
+      padding: 3rem 6rem
+  }
+}
+
+@media screen and (max-width: 42em) {
+  .page-header img {
+    width: 10rem;
+  }
+  .project-name {
+    font-size: 2.5rem;
+  }
+  .intro h2 {
+    font-size: 1.5rem;
+  }
+  .cell, .hide-large, .intro h2, .intro p {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
+  .cell img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intro, .features, .options {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .f-popup h2 {
+    margin-top: .5rem;
+    text-align: center;
+  }
+
+  .f-block h2 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .f-break h2 {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  .options {
+    padding-left: 1.9375rem;
+    padding-right: 1.9375rem;
+  }
+
+  .intro, .features {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hide-small {
+    display: none;
+  }
 }
