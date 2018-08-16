@@ -8,6 +8,7 @@ body {
 }
 
 .page-header {
+  color: #000;
   background-color: #ffe64d;
   background-image: none;
 }
@@ -29,6 +30,56 @@ body {
   .project-name {
     font-size: 2.5rem;
   }
+
+  .intro {
+      padding: 2rem;
+  }
+  .intro h2 {
+      font-size: 1.5rem;
+  }
+  .cell, .intro p {
+      display: block;
+      width: 80%;  
+  }
+
+  .hide-small {
+      display: none;
+  }
+
+  .cell img {
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .intro, .features, .options {
+      margin-right: auto;
+      margin-left: auto;
+  }
+  .f-popup h2 {
+      margin-top: .5rem;
+      text-align: center;
+  }
+
+  .f-block h2 {
+      margin-top: 2rem;
+      text-align: center;
+  }
+
+  .f-break h2 {
+      margin-top: 1.5rem;
+      text-align: center;
+  }
+}
+
+a {
+  color: #d06401;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #4d2422;
 }
 
 .project-name {
