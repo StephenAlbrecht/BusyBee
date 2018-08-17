@@ -1,6 +1,6 @@
 {
     "name": "BusyBee",
-    "version": "0.1",
+    "version": "0.9.0.0",
     "description": "BusyBee impedes access to social media and other distracting sites when you need to focus on getting work done.",
     "permissions": ["tabs", "<all_urls>", "alarms"],
 
