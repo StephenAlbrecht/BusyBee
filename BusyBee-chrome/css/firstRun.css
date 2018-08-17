@@ -19,7 +19,7 @@ footer {
 }
 
 header img {
-    width: 15rem;
+    width: 14rem;
 }
 
 .f-popup, .f-block, .f-break {
@@ -40,7 +40,6 @@ header img {
 img {
     max-width: 100%;
     vertical-align: middle;
-    max-width: 100%;
     height: auto; 
     width: auto; 
 }
